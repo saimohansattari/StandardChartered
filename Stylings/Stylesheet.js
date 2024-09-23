@@ -31,7 +31,7 @@ export const styles = StyleSheet.create({
 
     Navbar : {
         position:'absolute',
-        padding:20,
+        padding:10,
         left:0,
         right:0,
         bottom:0,
@@ -44,7 +44,13 @@ export const styles = StyleSheet.create({
       
     },
 
-    navbarContent : {
+    navbarContent0 : {
+        flexDirection:'row',
+        gap:40,
+        
+    },
+
+    navbarContent1 : {
         flexDirection:'column',
         alignItems:'center',
         justifyContent:"center"
@@ -52,6 +58,10 @@ export const styles = StyleSheet.create({
 
     navbarIcons : {
         color: '#0673ea',
+    },
+
+    navbarCameraIcon: {
+        color: '#0673ea',     
     },
 
     MainSection : {
@@ -72,6 +82,16 @@ export const styles = StyleSheet.create({
         backgroundColor:'white',
         height:'90%',       
     },
+    MainSection3 : {
+        paddingTop:5,
+        paddingLeft:15,
+        paddingRight:15,
+        gap:5,
+        backgroundColor:'white',
+        height:'90%',       
+    },
+
+    
 
     primaryCard : {
         height:height/2.5,

@@ -1,6 +1,8 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import { PieChart } from 'react-native-svg-charts';
+// import { PieChart } from 'react-native-chart-kit';
+// import { PieChartPro } from 'react-native-gifted-charts';
 
 const DoughnutChart = () => {
   const data = [

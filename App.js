@@ -25,7 +25,7 @@ export default function App() {
         <Stack.Navigator initialRouteName="Home">
           <Stack.Screen name="Home" component={Home} options={{headerShown: false}} />
           <Stack.Screen name="Payment" component={Payment} options={{headerShown: false}} />
-          <Stack.Screen name="Invest" component={Invest} />
+          <Stack.Screen name="Invest" component={Invest} options={{headerShown: false}} />
           <Stack.Screen name="Discovery" component={Discovery} />
           <Stack.Screen name="Service" component={Service} />
         </Stack.Navigator>

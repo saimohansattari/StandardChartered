@@ -1,11 +1,12 @@
 import React from 'react'
-import { Text, View } from 'react-native'
+import { View } from 'react-native'
 import { styles } from '../../Stylings/Stylesheet'
-
+import Camera from '../CameraComponent/Camera'
 function Invest() {
   return (
-    <View style={styles.MainSection}>
-        <Text>Invest Page!</Text>
+    <View  style={styles.MainSection3}>
+        {/* <Text>Invest Page!</Text> */}
+        <Camera />
     </View>
   )
 }

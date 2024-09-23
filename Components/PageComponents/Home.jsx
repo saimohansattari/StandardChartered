@@ -1,7 +1,7 @@
 import React from 'react';
 import { ScrollView, Text, TouchableOpacity, View } from 'react-native';
 import { styles } from '../../Stylings/Stylesheet';
-import DoughnutChart from '../charts/DoughnutChart';
+// import DoughnutChart from '../charts/DoughnutChart';
 
 
 function Home() {
@@ -58,7 +58,6 @@ function Home() {
       description: "Ride to the office.",
       amount: "-50",
       url:""
-
     },
     {
       key: 7,
@@ -101,7 +100,7 @@ function Home() {
       <ScrollView>
       <View style={styles.primaryCard}>
         <Text>Consolidated Investment Summary</Text>
-        <DoughnutChart />
+        {/* <DoughnutChart /> */}
       </View>
 
       <View style={styles.secondaryCard}>
@@ -118,7 +117,6 @@ function Home() {
            <Text style={{ fontSize:12,color:'gray'}}>{content.date}</Text>
            <Text style={{fontSize:19, fontWeight:'bold'}}>{content.label}</Text>
            <Text style={{fontSize:12, color:'#555', }}>{content.description}  {content.url ? (
-
                     <TouchableOpacity onPress={() => console.log("working hey.....")}>
                       <Text style={{ color: 'blue', fontSize:12, }}>
                         {content.url}
@@ -135,9 +133,8 @@ function Home() {
 
       </View>
       </ScrollView>
-     
     </View>
   )
-}
+} 
 
 export default Home
