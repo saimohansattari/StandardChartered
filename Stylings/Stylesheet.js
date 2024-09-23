@@ -9,6 +9,10 @@ export const styles = StyleSheet.create({
         fontWeight: 'bold',
     },
 
+    smallText : {
+        fontSize:8,
+    },
+
     MainHeader : {
 
         borderBottomColor:'#38d200',
@@ -65,13 +69,14 @@ export const styles = StyleSheet.create({
     },
 
     MainSection : {
+        paddingBottom:100,
         padding:10,
         backgroundColor:'white',
-        height:'90%',
+        // height:'50%',
         display:'flex',
+        flexDirection:'column',
         justifyContent:'center',
-        alignItems:'center',
-        
+        // alignItems:'center',       
     },
 
     MainSection2 : {
@@ -80,7 +85,7 @@ export const styles = StyleSheet.create({
         paddingRight:15,
         gap:5,
         backgroundColor:'white',
-        height:'90%',       
+        // height:'90%',       
     },
     MainSection3 : {
         paddingTop:5,
@@ -93,17 +98,31 @@ export const styles = StyleSheet.create({
 
     
 
+    
+
     primaryCard : {
         height:height/2.5,
         backgroundColor:'#E6ECF1',
         flexDirection:'column',
-        gap:20,
+        // gap:20,
         justifyContent:'center',
         alignItems:'center',
     },
 
     secondaryCard : {
         flexDirection:'column',       
+    },
+
+    tertiaryCard: {
+        padding: 30,
+        display:'flex',
+        flexDirection:'column',
+        gap:30,
+        alignItems:'center'
+    },
+
+    hoverdCard : {
+        backgroundColor:'green',
     },
 
     grayCard : {
@@ -121,12 +140,38 @@ export const styles = StyleSheet.create({
         padding:8,
     },
 
+    navCard : {
+        
+        display:'flex',
+        flexDirection:'column',
+        justifyContent:'center',
+        alignItems:'center',
+        width:90,
+        borderWidth:0.5,
+        borderRadius:15,
+        padding:10,
+        display:'flex',
+        flexDirection:'column',
+        shadowColor:'gray',
+        shadowRadius:10,
+    },
+
+    serviceCardIcons  : {
+            color:'green',
+            fontSize:35,
+    },
 
     redSpan : {
         color:'red'
     },
 
     blueSpan :{
+        color:'#218eff'
+    },
+
+    largeBlueSpan : {
+        fontSize:18,
+        fontWeight:'bold',
         color:'#218eff'
     }
 

@@ -27,7 +27,7 @@ export default function App() {
           <Stack.Screen name="Payment" component={Payment} options={{headerShown: false}} />
           <Stack.Screen name="Invest" component={Invest} options={{headerShown: false}} />
           <Stack.Screen name="Discovery" component={Discovery} />
-          <Stack.Screen name="Service" component={Service} />
+          <Stack.Screen name="Service" component={Service} options={{headerShown:false}} />
         </Stack.Navigator>
     
 

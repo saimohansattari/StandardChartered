@@ -1,6 +1,7 @@
 import React from 'react';
-import { ScrollView, Text, TouchableOpacity, View } from 'react-native';
+import { Image, ScrollView, Text, TouchableOpacity, View } from 'react-native';
 import { styles } from '../../Stylings/Stylesheet';
+import chartImage from '../../assets/chartImage.png';
 // import DoughnutChart from '../charts/DoughnutChart';
 
 
@@ -101,6 +102,7 @@ function Home() {
       <View style={styles.primaryCard}>
         <Text>Consolidated Investment Summary</Text>
         {/* <DoughnutChart /> */}
+        <Image source={chartImage} style={{ width: '80%', height: '60%', }} resizeMode="contain" />
       </View>
 
       <View style={styles.secondaryCard}>
