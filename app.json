@@ -1,10 +1,10 @@
 {
   "expo": {
     "name": "StandardChartered",
-    "slug": "StandardChartered",
+    "slug": "standardchartered",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/Standard_Chartered_Logo.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
@@ -18,10 +18,23 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.saimohansattariaidenai.StandardChartered"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e0c0dccc-6066-43f2-b4c3-a6cb101f6d33"
+      }
+    },
+    "owner": "saimohansattari-aidenai",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/e0c0dccc-6066-43f2-b4c3-a6cb101f6d33"
     }
   }
 }

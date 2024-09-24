@@ -14,7 +14,6 @@ export const styles = StyleSheet.create({
     },
 
     MainHeader : {
-
         borderBottomColor:'#38d200',
         borderBottomWidth:2,
         flexDirection:'row', 

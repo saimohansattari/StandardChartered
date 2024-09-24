@@ -111,8 +111,6 @@ function Home() {
           01/08/2024 - 31/08/2024</Text>
         </View>
 
-        
-      
         <View style={{gap:5, paddingTop:20}} >
          {transactionData.map((content) => (
            <View key={content.key} style={styles.contentCard}>
