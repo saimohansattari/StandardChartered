@@ -98,7 +98,7 @@ function Home() {
 
   return (
     <View style={styles.MainSection2}>
-      <ScrollView>
+      <ScrollView showsVerticalScrollIndicator={false}>
       <View style={styles.primaryCard}>
         <Text>Consolidated Investment Summary</Text>
         {/* <DoughnutChart /> */}

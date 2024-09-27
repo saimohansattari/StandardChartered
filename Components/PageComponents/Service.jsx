@@ -6,10 +6,14 @@ import banner2 from '../../assets/banner2.jpg';
 import Creditcard from '../../assets/Creditcard.png';
 import { styles } from '../../Stylings/Stylesheet';
 
+
 function Service() {
   
+
+
+  
   return (
-    <ScrollView>
+    <ScrollView showsVerticalScrollIndicator={false}>
      <View style={styles.MainSection}>
         <Image source={banner1} style={{ width: '100%',   }} />
         <Image source={banner2} style={{ width: '100%', }} />  
@@ -55,13 +59,11 @@ function Service() {
           </View>
           <Image source={Creditcard} style={{ width: '100%',height:180,  objectFit:'contain' }}  />
           <TouchableOpacity style={styles.button} >
-            <Text style={styles.blueSpan}>Apply For Card</Text>
+            <Text style={styles.blueSpan}>Ap ply For Card</Text>
           </TouchableOpacity>
         </View>
-      
       </View>
     </ScrollView>
-  
   );
 }
 

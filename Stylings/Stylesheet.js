@@ -87,6 +87,7 @@ export const styles = StyleSheet.create({
         // height:'90%',       
     },
     MainSection3 : {
+    
         paddingTop:5,
         paddingLeft:15,
         paddingRight:15,
