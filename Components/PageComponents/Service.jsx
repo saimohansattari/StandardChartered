@@ -59,7 +59,7 @@ function Service() {
           </View>
           <Image source={Creditcard} style={{ width: '100%',height:180,  objectFit:'contain' }}  />
           <TouchableOpacity style={styles.button} >
-            <Text style={styles.blueSpan}>Ap ply For Card</Text>
+            <Text style={styles.blueSpan}>Apply For Card</Text>
           </TouchableOpacity>
         </View>
       </View>
